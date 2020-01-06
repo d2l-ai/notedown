@@ -16,7 +16,7 @@ with open('README.md') as f:
 
 setup(
     name="mu-notedown",
-    version="2.0.0",
+    version="2.0.2",
     description="A fork of notedown",
     long_description=readme,
     packages=['notedown'],
