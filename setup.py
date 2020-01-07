@@ -4,21 +4,12 @@ import subprocess
 
 from setuptools import setup
 
-#try:
-#    pandoc = subprocess.Popen(['pandoc', 'README.md', '--to', 'rst'],
-#                              stdout=subprocess.PIPE)
-
-#    readme = pandoc.communicate()[0].decode()
-
-#except OSError:
-with open('README.md') as f:
-    readme = f.read()
 
 setup(
     name="mu-notedown",
     version="2.0.2",
     description="A fork of notedown",
-    long_description=readme,
+    long_description='',
     packages=['notedown'],
     author="Mu Li",
     author_email='muli.cmu@gmail.com',
