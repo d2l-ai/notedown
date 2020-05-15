@@ -7,7 +7,7 @@ from setuptools import setup
 
 setup(
     name="mu-notedown",
-    version="2.0.2",
+    version="2.0.3",
     description="A fork of notedown",
     long_description='',
     packages=['notedown'],
@@ -15,7 +15,7 @@ setup(
     author_email='muli.cmu@gmail.com',
     license='BSD 2-Clause',
     url='http://github.com/mli/notedown',
-    install_requires=['nbformat<=4.4',
+    install_requires=['nbformat',
                       'nbconvert',
                       'pandoc-attributes',
                       'six'],
