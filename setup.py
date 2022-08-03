@@ -16,7 +16,7 @@ setup(
     license='BSD 2-Clause',
     url='http://github.com/mli/notedown',
     install_requires=['nbformat',
-                      'nbconvert',
+                      'nbconvert>=6.2',
                       'pandoc-attributes',
                       'six'],
     entry_points={'console_scripts': ['notedown = notedown.main:app', ]},
