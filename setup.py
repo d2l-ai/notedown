@@ -6,8 +6,8 @@ from setuptools import setup
 
 
 setup(
-    name="mu-notedown",
-    version="2.0.4",
+    name="d2l-notedown",
+    version="2.1.0",
     description="A fork of notedown",
     long_description='',
     packages=['notedown'],
