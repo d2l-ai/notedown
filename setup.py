@@ -14,7 +14,7 @@ setup(
     author="Mu Li",
     author_email='muli.cmu@gmail.com',
     license='BSD 2-Clause',
-    url='http://github.com/mli/notedown',
+    url='http://github.com/d2l/notedown',
     install_requires=['nbformat',
                       'nbconvert>=6.2',
                       'pandoc-attributes',
