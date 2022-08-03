@@ -6,8 +6,8 @@ from setuptools import setup
 
 
 setup(
-    name="mu-notedown",
-    version="2.0.3",
+    name="d2l-notedown",
+    version="2.1.0",
     description="A fork of notedown",
     long_description='',
     packages=['notedown'],
@@ -16,7 +16,7 @@ setup(
     license='BSD 2-Clause',
     url='http://github.com/mli/notedown',
     install_requires=['nbformat',
-                      'nbconvert',
+                      'nbconvert>=6.2',
                       'pandoc-attributes',
                       'six'],
     entry_points={'console_scripts': ['notedown = notedown.main:app', ]},
